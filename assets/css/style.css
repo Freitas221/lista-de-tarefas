@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    margin: 0;
+    background: rgb(84, 84, 240);
+    font: normal  15px 'Open sans', Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+
+.container{
+    text-align: center;
+    max-width: 640px;
+    margin: 50px auto;
+    background-color: rgb(176, 176, 227);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input{
+    width: 50%;
+    margin-bottom: 10px;
+    font-size: 15px;
+    height: 2em ;
+    padding: 0 20px;
+    border-radius: 7px;
+}
+
+button{
+    background-color: rgb(116, 116, 238);
+    color: aliceblue;
+    border-radius: 5px;
+    line-height: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+    
+}
+
+.tarefas{
+    text-align: left;
+}
